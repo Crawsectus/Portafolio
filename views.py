@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template
 
-views=Blueprint(__name__,"views")
+views=Blueprint(__name__,"views") #Registro las "views"
 
 @views.route("/") #Esto será el index, si pongo /clima sería la pág clima
 def home():
